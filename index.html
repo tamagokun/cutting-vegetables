@@ -1,1 +1,12 @@
-<h1>Cutting Vegatablez</h1>
+---
+layout: default
+title: Cutting Vegetables
+---
+{% include search.html %}
+<section id="content" class="list">
+  {% for post in site.posts %}
+    <article class="card" data-tags="{% for tag in post.tags %}{{tag}} {% endfor %}">
+      {{ post.content }}
+    </article>
+  {% endfor %}
+</section>
