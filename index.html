@@ -3,10 +3,10 @@ layout: default
 title: Cutting Vegetables
 ---
 {% include search.html %}
-<section id="content" class="list">
+<section id="content">
   {% for post in site.posts %}
-    <article class="card" data-tags="{% for tag in post.tags %}{{tag}} {% endfor %}">
-      {{ post.content }}
+    <article class="card" data-tags="{% for tag in post.tags %}{{tag}} {% endfor %}" data-scrollReveal="over .5s">
+        {{ post.content }}
     </article>
   {% endfor %}
 </section>
