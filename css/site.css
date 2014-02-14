@@ -457,6 +457,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .site {
   max-width: 840px;
   margin: 0 auto;
@@ -489,6 +493,16 @@ a {
 
 .card h1 {
   color: #f9eeac;
-  border-bottom: 3px solid #2e3f59;
+  border-bottom: 1px solid;
   margin-top: 0;
+  text-align: center;
 }
+
+.card.orange {
+  background: #db9434;
+}
+
+.card.red {
+  background: #e06945;
+}
+

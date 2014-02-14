@@ -1,6 +1,7 @@
 ---
 title: Stone Fruit
 chef: Mario Batali
+color: orange
 tags:
   - fruit
   - peach

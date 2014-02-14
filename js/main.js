@@ -7,6 +7,7 @@
     // responsive videos
     $(document).fitVids();
 
+
   });
 
-})(Zepto);
+})(jQuery);
