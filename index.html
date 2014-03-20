@@ -6,7 +6,14 @@ title: Cutting Vegetables
 <section id="content">
   {% for post in site.posts %}
     <article class="card {{post.color}}" data-tags="{% for tag in post.tags %}{{tag}} {% endfor %}" data-scrollReveal="over .5s">
+      <a href="">
+        <h3>{{ post.chef }}</h3>
+        <h2>{{ post.title }}</h2>
+      </a>
+      <div class="content">
+        <a href="" class="close">Close</a>
         {{ post.content }}
+      </div>
     </article>
   {% endfor %}
 </section>
