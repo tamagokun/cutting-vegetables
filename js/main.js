@@ -4,9 +4,6 @@
 
   $(document).ready(function() {
 
-    // responsive videos
-    $(document).fitVids();
-
     var overlay = $('#overlay');
     var sword = $('.sword');
 
@@ -17,7 +14,8 @@
       var card = $(this).parents('.card');
       var color = card.attr('class').replace('card', '').trim();
       sword.attr('class', ['sword', 'in', color].join(' '));
-      overlay.html( card.find('.content').html() );
+      overlay.html( '<a href="" class="close">close</a>' + card.attr('data-content') );
+      overlay.fitVids();
       setTimeout(function() {
         overlay.addClass('in');
       }, 650);
