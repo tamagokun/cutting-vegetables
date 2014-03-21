@@ -476,12 +476,14 @@ img {
 }
 
 .search {
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
 }
 
 .search input {
   width: 100%;
+  padding: .25em;
+  color: #456;
 }
 
 .card {
@@ -510,6 +512,14 @@ img {
   color: #1b1b1b;
   font-weight: 200;
   margin: 0;
+}
+
+.card:hover {
+  opacity: .9;
+}
+
+.card:hover h2 {
+  text-shadow: 0 0 5px rgba(255,255,0,0.5);
 }
 
 .card.no-match {
@@ -585,6 +595,31 @@ img {
   text-indent: -1000em;
   overflow: hidden;
   z-index: 10;
+}
+
+footer {
+  font-family: "futura-pt", sans-serif;
+  font-size: .9em;
+  text-transform: uppercase;
+  color: #aaa;
+  border-top: 1px solid #aaa;
+  margin-top: 1em;
+}
+
+footer a {
+  color: #456;
+}
+
+footer a:hover {
+  color: #333;
+}
+
+footer p {
+  display: inline-block;
+}
+
+.pull-right {
+  float: right;
 }
 
 @media all and (min-width: 768px) {
