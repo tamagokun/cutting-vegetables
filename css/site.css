@@ -575,16 +575,16 @@ img {
 
 .close {
   display: block;
-  background: url(../img/cross.svg) no-repeat center center;
+  background: url(../img/close.svg) no-repeat center center;
   background-size: 100% 100%;
-  width: 1em;
-  height: 1em;
-  position: absolute;
-  top: -2em;
-  right: -2em;
+  width: 2em;
+  height: 2em;
+  position: fixed;
+  top: 1em;
+  right: 1em;
   text-indent: -1000em;
   overflow: hidden;
-  color: white;
+  z-index: 10;
 }
 
 @media all and (min-width: 768px) {
