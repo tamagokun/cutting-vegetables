@@ -8,4 +8,4 @@ tags:
   - gourd
 ---
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/i3OjXE349-Q?list=PL9385D982D179C21A" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/i3OjXE349-Q" frameborder="0" allowfullscreen></iframe>
